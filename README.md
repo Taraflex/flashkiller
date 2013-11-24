@@ -6,10 +6,9 @@
 
 в секцию toolbar строку 
 
-	<button label="Kill FlashPlayer" click="RunProcess" tag="Путь/до/flashkiller/flashkiller.exe" image="192" /></pre>
+	<button label="Kill FlashPlayer" click="RunProcess" tag="Путь/до/flashkiller/flashkiller.exe" image="192" />
 
 Пример моего ToolBar.xml
-
 
 	<?xml version="1.0" encoding="utf-8" ?>
 	<toolbar>
