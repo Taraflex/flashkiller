@@ -6,11 +6,12 @@
 
 в секцию toolbar строку 
 
-> <button label="Kill FlashPlayer" click="RunProcess" tag="Путь/до/flashkiller/flashkiller.exe" image="192" />
+><pre><button label="Kill FlashPlayer" click="RunProcess" tag="Путь/до/flashkiller/flashkiller.exe" image="192" /></pre>
 
 Пример моего ToolBar.xml
 
-><?xml version="1.0" encoding="utf-8" ?>
+<pre>
+<?xml version="1.0" encoding="utf-8" ?>
 <toolbar>
 	<button label="Label.New" click="New" image="275" />
 	<button label="Label.Open" click="Open" image="214" />
@@ -29,4 +30,5 @@
 
 	<button label="Kill FlashPlayer" click="RunProcess" tag="C:/Program Files (x86)/FlashDevelop/Tools/flashkiller.exe" image="192" />
 </toolbar>
+</pre>
 
