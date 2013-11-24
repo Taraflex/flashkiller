@@ -3,13 +3,14 @@
 Для установки скопируйте приложение flashkiller.exe в удобное для вас место, после чего добавьте допишите в файл 
 
 > Путь\установки\FlashDevelop\Settings\ToolBar.xml
-в секцию toolbar строку 
-> <button label="Kill FlashPlayer" click="RunProcess" tag="Путь/до/flashkiller/flashkiller.exe" image="192" />
 
+в секцию toolbar строку 
+
+> <button label="Kill FlashPlayer" click="RunProcess" tag="Путь/до/flashkiller/flashkiller.exe" image="192" />
 
 Пример моего ToolBar.xml
 
-<?xml version="1.0" encoding="utf-8" ?>
+><?xml version="1.0" encoding="utf-8" ?>
 <toolbar>
 	<button label="Label.New" click="New" image="275" />
 	<button label="Label.Open" click="Open" image="214" />
